@@ -6,7 +6,9 @@
 //  Copyright (c) 2014 Lesko, Dereck. All rights reserved.
 //
 
+
 #import "QuizViewController.h"
+
 
 @interface QuizViewController ()
 
@@ -26,4 +28,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Swap:(id)sender {
+    //UIColor *mycolor = (UIColor *)blackColor;
+    
+    [self.myLabel.textColor] = [UIColor greenColor];
+    [self.myLabel.textColor] = [UIColor redColor];
+
+NSString *str = @"";
+    
+
+
+}
 @end
