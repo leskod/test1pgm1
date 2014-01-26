@@ -10,6 +10,11 @@
 
 @interface QuizViewController : UIViewController
 - (IBAction)Swap:(id)sender;
+- (IBAction)IncreaseSize:(id)sender;
+- (IBAction)DecreaseSize:(id)sender;
+- (IBAction)HideShow:(id)sender;
+- (IBAction)VisibilitySwitch:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UILabel *CurFontSize;
 
 @end
